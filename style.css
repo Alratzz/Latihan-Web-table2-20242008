@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, sans-serif;
+
+    background-color: rgb(54, 15, 113);
+
+    color: #10100f;
+}
+
+
+
+h1 {
+    margin-left: 68px;
+    margin-top: 0;
+
+    font-size: 22px;
+}
+
+
+
+body > p {
+    margin-left: 68px;
+
+    font-size: 18px;
+}
+
+
+   /*KOTAK FORM*/
+  
+
+.form-container {
+    width: 480px;
+    height: 300px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+
+    padding: 25px 15px;
+
+    border: 3px solid #888;
+
+    box-sizing: border-box;
+
+    overflow-y: scroll;
+
+    background-color: #0eb7bd;
+}
+
+
+
+   /*BARIS FORM*/
+  
+
+.form-row {
+    display: flex;
+
+    align-items: center;
+
+    margin-bottom: 10px;
+}
+
+
+/* LABEL*/
+  
+
+.form-row label {
+    width: 80px;
+
+    font-family:'Times New Roman', Times, serif
+
+    font-size: 17px;
+}
+
+.form-row input {
+    width: 305px;
+    height: 25px;
+
+    padding: 2px 5px;
+
+    box-sizing: border-box;
+
+    font-size: 14px;
+}
+
+
+ /* TEXTAREA*/
+  
+
+.form-row textarea {
+    width: 260px;
+    height: 100px;
+
+    padding: 5px;
+
+    box-sizing: border-box;
+
+    font-family: monospace;
+
+    font-size: 14px;
+
+    resize: none;
+    
+    overflow-y: scroll;
+}
